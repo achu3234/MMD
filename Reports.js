@@ -97,7 +97,7 @@ employee_name_map = {
 };
 
 function is_ylg(){
-  return ["HRLR"].includes(shopSelect.value);
+  return ["HRLR", "ADYAR"].includes(shopSelect.value);
 }
 
 function get_emp_name(emp_name){
